@@ -1,0 +1,54 @@
+
+
+/*typography*/
+$primary-font-stack: Verdana,sans-serif; 
+$font-small-size: 12px;
+$font-large-size: 24px;
+$font-super-size: 33px;
+
+$normal-font-size: $font-small-size;
+$subheading-font-size: $font-large-size;
+$heading-font-size: $font-super-size;
+
+
+/*colors*/
+// Color Palette for Color Blind Accessibility
+
+
+//font color
+$primary-color: #000000; // black 
+$font-color: $primary-color;
+
+//colors for nav
+$tertiary-color: #222222; // A dark gray for the nav
+$quaternary-color:#cdcdcd; //a light color for nav text
+
+$nav-font-color:$quaternary-color;
+$nav-background-color:$tertiary-color;
+
+//colors for articles
+$secondary-color: #49AE55; // A soft orange for the background
+
+$lighttext-color: #ffffff;
+$darktext-color: #000000;
+$background-light:#CCCCCC;
+
+/*Structural sizing*/
+$pageWidth: 1000px;
+$fullWidth: 100%;
+$halfWidthColumn: calc($pageWidth/2);
+$thirdWidthCol: calc($pageWidth/3);
+$quarterWidthCol: calc($pageWidth/4.5);
+$threeQuarterCol: calc($pageWidth * 0.75);
+$mostCol: calc($pageWidth * .9);
+$noMargin: 0;
+$noPadding: 0;
+$radius: 20%;
+$widebreakpoint: 800px;
+
+//$buttonBackgroundColor: #f24e77; // Change this to your desired button color
+//$buttonTextColor: #ffffff; // Change this to your desired text color
+//$buttonHoverColor: #7092b7; // Change this to the color when hovered
+//$buttonActiveColor: #1b3045; // Change this to the color when clicked
+
+
